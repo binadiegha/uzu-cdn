@@ -20,7 +20,7 @@ class UzuEvent {
 		uzuTicketIframe.name = eventId;
 		uzuTicketIframe.id = "uzuTicketFrame";
 		// uzuTicketIframe.src = `http://localhost:3000/`;
-		uzuTicketIframe.src = `https://uzu-ticket.onrender.com/events/910fc621-83f1-44a1-9e01-98ef4ae08847`;
+				uzuTicketIframe.src = `https://uzu-ticket.onrender.com/events/event=${eventId}`;
 		// uzuTicketIframe.src = `https://confident-mccarthy-204cef.netlify.app/?event=${eventId}`;
 		uzuTicketIframe.style.position = "fixed";
 		uzuTicketIframe.style.top = "0";
